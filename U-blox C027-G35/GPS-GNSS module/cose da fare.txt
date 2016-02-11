@@ -1,0 +1,2 @@
+aggiornare la latitudine e longitudine anche con gli altrimessaggi GPS
+disattivare i messaggi gps che non usiamo oppure ripetere get message finche non si ha un messaggio utile

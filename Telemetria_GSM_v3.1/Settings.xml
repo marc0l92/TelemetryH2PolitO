@@ -1,0 +1,150 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Connection Configuration</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Data source</Name>
+<Choice>Serial port</Choice>
+<Choice>Simulated data</Choice>
+<Choice>Web page JSON</Choice>
+<Val>2</Val>
+</EW>
+<Cluster>
+<Name>Connection info</Name>
+<NumElts>9</NumElts>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<U32>
+<Name>Baud rate</Name>
+<Val>0</Val>
+</U32>
+<U16>
+<Name>data bits</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>stop bits</Name>
+<Val>0</Val>
+</U16>
+<EW>
+<Name>parity (0:none)</Name>
+<Choice>None</Choice>
+<Choice>Odd</Choice>
+<Choice>Even</Choice>
+<Choice>Mark</Choice>
+<Choice>Space</Choice>
+<Val>0</Val>
+</EW>
+<U16>
+<Name>flow control (0:none)</Name>
+<Val>0</Val>
+</U16>
+<U32>
+<Name>timeout (10sec)</Name>
+<Val>0</Val>
+</U32>
+<U8>
+<Name>termination char
+(0xA = '\n' = LF) </Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Enable Termination
+Char (T)</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Protocol info</Name>
+<NumElts>2</NumElts>
+<U8>
+<Name>Temination char</Name>
+<Val>255</Val>
+</U8>
+<U8>
+<Name>Escape char</Name>
+<Val>254</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Internet server</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Web page telemetry</Name>
+<Val>http://telemetryh2polito.altervista.org/index.php/databaseio/getGps</Val>
+</String>
+<String>
+<Name>Web page gps</Name>
+<Val>http://telemetryh2polito.altervista.org/index.php/databaseio/getGps</Val>
+</String>
+</Cluster>
+<EW>
+<Name>Data format</Name>
+<Choice>IDRA data</Choice>
+<Choice>XAM data</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>3</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>\\psf\Home\Desktop\mylog</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<EW>
+<Name>Data format</Name>
+<Choice>IDRA data</Choice>
+<Choice>XAM data</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Maps config</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Real-time map config</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Config path</Name>
+<Val>V:\H2politO_elettronics_shared\Telemetria\Acquisizione_LabView\Telemetria_GSM_v3.1\My Graphs\Maps Manager\Maps\AHOY.txt</Val>
+</Path>
+<Path>
+<Name>Image path</Name>
+<Val>V:\H2politO_elettronics_shared\Telemetria\Acquisizione_LabView\Telemetria_GSM_v3.1\My Graphs\Maps Manager\Maps\AHOY.png</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Mini map config</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Config path</Name>
+<Val>V:\H2politO_elettronics_shared\Telemetria\Acquisizione_LabView\Telemetria_GSM_v3.1\My Graphs\Maps Manager\Maps\AHOY.txt</Val>
+</Path>
+<Path>
+<Name>Image path</Name>
+<Val>V:\H2politO_elettronics_shared\Telemetria\Acquisizione_LabView\Telemetria_GSM_v3.1\My Graphs\Maps Manager\Maps\AHOY.png.small.png</Val>
+</Path>
+</Cluster>
+</Cluster>
+<EW>
+<Name>Data format</Name>
+<Choice>IDRA data</Choice>
+<Choice>XAM data</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</LVData>
